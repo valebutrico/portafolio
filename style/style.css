@@ -1,11 +1,19 @@
+/* -------- RESETEO GENERAL -------- */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;1,300&display=swap');
 
 * {
-	margin: 0;
+  margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
 }
+
+body {
+  background-color: #161b21;
+}
+
+/* -------- INDEX -------- */
 
 .index {
   height: 100vh;
@@ -20,12 +28,14 @@
   height: 100%;
   font-size: 2rem;
   text-align: center;
-  color: white;
+  color: #F8F7FF;
   display: flex;
   justify-content: center;
   align-items: center;
   backdrop-filter: blur(5px);
 }
+
+/* -------- NAVBAR -------- */
 
 .navbar {
   position: absolute;
@@ -48,7 +58,11 @@
 
 .links a {
   text-decoration: none;
-  color: #1B1B3A;
+  color: #161b21;
+}
+
+.links-pages a {
+  color: #F8F7FF;
 }
 
 .links a:hover,
@@ -57,9 +71,81 @@
   color: #FF3562;
 }
 
-/* .demi {
-  width: 500px;
-  text-align: justify;
-  margin: 1rem auto;
-} */
+/* -------- COMPARTIDO ENTRE VARIAS PAGS -------- */
 
+.pages {
+  padding-top: 8rem;
+}
+
+footer {
+  color: #161b21;
+  padding: .5rem 1rem;
+  font-size: .8rem;
+  font-weight: bold;
+  width: 100%;
+  background-color: #FF3562;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-index {
+  background-color: transparent;
+}
+
+/* -------- ABOUT -------- */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  color: #F8F7FF;
+}
+
+.about img {
+  height: 350px;
+}
+
+.about h1 {
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 400px;
+  text-align: justify;
+}
+
+/* -------- STUDIES -------- */
+
+.studies {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #F8F7FF;
+}
+
+.studies div {
+  width: 400px;
+  margin: auto;
+}
+
+.studies li {
+  list-style: none;
+  margin-bottom: .5rem;
+  margin-top: 1rem;
+}
+
+.studies p {
+  padding-left: .5rem;
+}
+
+.studies h2 {
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+/* -------- PROJECTS -------- */
+
+
+/* -------- CONTACT -------- */
