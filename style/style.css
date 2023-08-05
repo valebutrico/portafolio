@@ -149,3 +149,8 @@ footer {
 
 
 /* -------- CONTACT -------- */
+
+.pages a {
+  text-decoration: none;
+  color: #F8F7FF
+}
