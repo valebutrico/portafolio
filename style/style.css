@@ -78,7 +78,7 @@ body {
 }
 
 footer {
-  color: #161b21;
+  color: #ffffff;
   padding: .5rem 1rem;
   font-size: .8rem;
   font-weight: bold;
@@ -90,6 +90,7 @@ footer {
 
 .footer-index {
   background-color: transparent;
+  color: #161b21;
 }
 
 /* -------- ABOUT -------- */
@@ -104,6 +105,7 @@ footer {
 
 .about img {
   height: 350px;
+  border-radius: 50%;
 }
 
 .about h1 {
